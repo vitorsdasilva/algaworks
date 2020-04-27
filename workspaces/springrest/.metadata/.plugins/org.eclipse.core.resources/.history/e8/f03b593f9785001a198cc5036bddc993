@@ -1,0 +1,23 @@
+package com.algaworks.osworks.api.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ClienteController {
+	
+	@GetMapping("/clientes")
+	public List<Cliente> listar() {
+		var cliente1 = new Cliente();
+		cliente1.setId(1L);
+		cliente1.setNome("João");
+		cliente1setTelefone(71 99213-5181)
+		cliente1.setEmail("vitors.dasil@gmail.com");
+		
+		var cliente2 = new Cliente();
+		return Array.asList(cliente1,cliente2);
+	}
+
+}

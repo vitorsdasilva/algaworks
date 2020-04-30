@@ -1,0 +1,16 @@
+package com.algaworks.osworks.api.exceptionhandler;
+
+import java.time.LocalDateTime;
+
+import jdk.nashorn.internal.objects.annotations.Setter;
+import lombok.Getter;
+
+
+
+public class Problema {
+	@Getter @Setter private Integer status;
+	@Getter @Setter private LocalDateTime dataHora;
+	@Getter @Setter private String titulo;
+	
+
+}

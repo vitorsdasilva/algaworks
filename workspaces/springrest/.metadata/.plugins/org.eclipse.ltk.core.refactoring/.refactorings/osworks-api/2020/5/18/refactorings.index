@@ -1,2 +1,4 @@
 1588365760058	Rename resource 'cria-tabela-ordem-servico.sql'
 1588385402166	Delete element
+1588386989762	Rename resource 'cria-tabela-comentario.sql'
+1588390808198	Extract method 'buscar'

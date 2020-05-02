@@ -1,0 +1,15 @@
+package com.algaworks.osworks.api.model;
+
+import java.time.OffsetDateTime;
+
+public class OrdemServicoModel {
+	
+	private Long id;
+	private String nomeCliente;
+	private descricao;
+	private preco;
+	private StatusOrdemServico status;
+	private OffsetDateTime dataAbertura;
+	private OffsetDateTime dataFechamento;
+}
+
